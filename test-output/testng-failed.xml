@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="casestudy.CaseStudy">
+        <methods>
+          <include name="extenreport"/>
+          <include name="select" invocation-numbers="0"/>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="property"/>
+          <include name="finish"/>
+          <include name="tearout"/>
+        </methods>
+      </class> <!-- casestudy.CaseStudy -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
